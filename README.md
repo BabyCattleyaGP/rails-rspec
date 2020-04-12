@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a skeleton for ruby on rails with BDD principle using rspec.
+This is an implementation of ruby on rails with BDD principle using rspec.
 
 Ruby style guide : [style_guide](https://github.com/github/rubocop-github/blob/master/STYLEGUIDE.md).
 
@@ -25,9 +25,15 @@ Ruby style guide : [style_guide](https://github.com/github/rubocop-github/blob/m
 
 Start with `bundle install`
 
+## Database Migration
+
+On command line `rake db:migrate db:test:prepare`
+
 ## Run
 
 On terminal run `rails server`
 
 ## Running tests
-run `rspec`
+
+run `bundle exec rspec`
+for spesific file : `rspec spec/models/****_spec.rb`
