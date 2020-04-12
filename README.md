@@ -2,7 +2,7 @@
 
 ## Description
 
-This is an implementation of ruby on rails with BDD principle using rspec.
+This is an implementation of ruby on rails with basic rspec.
 
 Ruby style guide : [style_guide](https://github.com/github/rubocop-github/blob/master/STYLEGUIDE.md).
 
@@ -35,5 +35,5 @@ On terminal run `rails server`
 
 ## Running tests
 
-run `bundle exec rspec`
-for spesific file : `rspec spec/models/****_spec.rb`
+* run `bundle exec rspec`
+* for spesific file : `rspec spec/****/****_spec.rb`
